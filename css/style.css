@@ -1,0 +1,28 @@
+/* Selector */
+/* 1. tag */
+/* 2. class -->  . */
+/* 3. id --> # */
+
+/* Flex is use in parent to control child */
+/* default property of flex is row */
+
+.hero-section {
+  display: flex;
+  text-align: center;
+}
+/* units */
+/* px, rem, em, % */
+.left {
+  width: 50%;
+  background-image: url("../images/background.jpeg");
+  background-repeat: no-repeat;
+  color: brown;
+}
+
+.right {
+  width: 50%;
+}
+/* image take up more space according to their resolution */
+img {
+  width: 100%;
+}
